@@ -1,0 +1,16 @@
+{
+  "id": "bd51bc86-6dcd-4e59-98ef-f5722c07e21e",
+  "recipientName": "Rahul",
+  "nickname": "body builder",
+  "relationship": "Best Friend",
+  "birthdayDate": "2026-11-20T00:00:00.000",
+  "birthdayMessage": "hey",
+  "themeId": "lavender_sky",
+  "birthdayLetter": "hey",
+  "photos": [
+    "assets/recipient/images/photo_01.jpg",
+    "assets/recipient/images/photo_02.jpg"
+  ],
+  "musicPath": "assets/recipient/music/birthday_song.mp3",
+  "musicName": "sub_clair-drift-phonk-607579.mp3"
+}

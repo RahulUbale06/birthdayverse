@@ -6,6 +6,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:uuid/uuid.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../models/birthday_config.dart';
 
@@ -300,7 +301,7 @@ class _CreatorScreenState extends State<CreatorScreen> {
       musicName: selectedMusicName,
       musicBytes: selectedMusicBytes,
     );
-
+      context.push('/preview', extra: birthday);
     showDialog(
       context: context,
       builder: (dialogContext) {
